@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Share Stock Market</string>
+    <string name="r_title">Registration Here</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<include layout="@layout/toolbar"></include>-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#F18D24"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/imgfreetrail"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="FreeTrail"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_height="24dp"
+            android:layout_width="24dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9e0b0f"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.knit.FreeTrail">
+
+        <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/freetrialWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bck_btn" />
+
+
+        <ImageButton
+            android:id="@+id/bck_btn"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:baselineAlignBottom="true"
+            android:onClick="bck_clicked"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow_back"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="8dp">-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingTop="16dp"-->
+    <!--android:paddingBottom="8dp"-->
+    <!--android:paddingLeft="8dp"-->
+    <!--android:paddingRight="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<EditText-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:hint="Full Name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/txtName" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<EditText-->
+    <!--android:inputType="phone"-->
+    <!--android:hint="Phone Number"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/txtPhone" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<EditText-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:hint="Email Address"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/txtEmail" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<Spinner-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/spnrServices"-->
+    <!--android:entries="@array/array_name" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<CheckBox-->
+    <!--android:id="@+id/chckTerm"-->
+    <!--android:backgroundTint="@color/primaryLightColor"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Terms And Conditions" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<Button-->
+    <!--android:text="Take Free Trial"-->
+    <!--android:padding="8dp"-->
+    <!--android:background="@color/primaryLightColor"-->
+    <!--android:textColor="@color/primaryTextColor"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/btnSubmit" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->

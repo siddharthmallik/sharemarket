@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#F18D24"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:id="@+id/llfuture"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/imgaboutus"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="AboutUs"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_height="24dp"
+            android:layout_width="24dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/llfuture"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="About Trading Expert"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Trading Expert , a trusted name in the financial services arena, provides you with the entire gamut of financial advisory services under one ceiling. It is one of the few organizations providing research and information on Indian capital markets mainly based on Technical Analysis and enjoys a strong reputation amongst investors, brokers and researchers. Our team is highly skilled with experienced analysis. Our efforts are to provide you more &amp; more profit in every trade. Our research is based around these services:" />
+        <TextView
+            android:text="Equity Cash Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="Equity Cash Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="Stock Future Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="MCX Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="Commodity Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="NCDEX Tips"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Working in the competitive world of advisory companies we are following the above words and providing our clients the best possible services in the field of stock and commodity market. We give all sort of best possible training to our business development executives like soft skills, knowledge related to market, market analysis and how to build customer relationship and sustain it for a long time. Research house is a company where we have the best research team for each segment of the market." />
+
+
+    </LinearLayout>
+</RelativeLayout>

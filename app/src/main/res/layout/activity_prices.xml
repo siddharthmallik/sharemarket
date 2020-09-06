@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<include layout="@layout/toolbar"></include>-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#F18D24"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/imgprices"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="GetPrices"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="1"
+            android:onClick="open"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+          />
+        <LinearLayout
+            android:layout_height="24dp"
+            android:layout_width="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#491912"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="EQUITY CASH:"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 4,500"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 11,475"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 20,250 "
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 32,400"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="F&amp;O: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 4,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 12,750"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 23,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 35,999"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="EQUITY AND STOCK FUTRE:"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 5,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 15,300"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 26,999 "
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 43,200"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="BASE METALS:"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 4,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 12,750"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 23,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 35,999"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="ENERGY: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 4,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 12,750"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 23,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 35,999"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="Commodity:"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 5,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs  15,300"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs  26,999"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 43,200"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="ALL MCX:"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 9,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs 25,500"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 35,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs 72,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#33000000"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="ALL PACKAGE:"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="@color/primaryTextColor"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Month : Rs 14,999"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="3 Month: Rs  38,250"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="6 Month: Rs 67,500"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="1 Year:  Rs  1,08,000"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

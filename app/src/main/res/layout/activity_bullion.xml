@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#F18D24"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/imgbullion"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="Bullion"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_height="24dp"
+            android:layout_width="24dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="TE- BULLIONS Package we provide you excellent 1-2 intraday calls in bullion with a high level of accuracy. This service is basically for Gold &amp; Silver Traders. Where the calls are prepared by qualitative analysis or various technicalities as well data like International data, LME data etc, for preparing the most accurate tips in the market. We provide maximum benefit to traders extracting major movement in commodities in form of trading levels. All the calls are mostly intraday. Huge profits are earned every month. Accuracy level is maintained to 90-95%."
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="What you Get?"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="IIn this pack we will provide you 3-6 calls in Commodity (Base Metals and Energys)."
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="12dp"
+                android:text="Each call consist of 3 targets and 1 Stop Loss."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Buy above and Sale below strategy follows."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Proper follow ups of calls with timely Entry and Exit with Stoploss."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Support &amp; Resistance of all the major commodities will be provided."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Complete Support On Whatsapp and Direct Mobile Number will be provided."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Medium of Calls:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Calls Will Be Given Only On SMS and WhatsApp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Profits:"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="In this package we provide huge profits every month on consistent basis. Our subscribers earn approx. Rs.60,000-1lack every month. We recommend you to have minimum capital of Rs. 1,50,000/ or above to get maximum benefits of this package."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Package Price:"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Rs 5,999 for 1 Month \n Rs 15,300 for 3 Month (Save Upto Rs2,700)15% \n Rs 26,999 for 6 Month (Save Upto Rs9,000)25% \n Rs 26,999 for 6 Month (Save Upto Rs9,000)25%"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

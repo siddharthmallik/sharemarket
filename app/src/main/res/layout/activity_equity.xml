@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#F18D24"
+        android:layout_height="48dp"
+        android:padding="4dp"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/imgequity"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="Equity"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_height="24dp"
+            android:layout_width="24dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="TE- EQUITY CASH Package we provide you excellent STOCK CASH calls with a high level of accuracy. This service is basically for EQUITY CASH Traders. Deep research and strong predictions made by our research team in order to give equity cash tips for our new and old clients makes sure that you make huge profits through your investments. All the calls are mostly intraday. Huge profits are earned every month. Accuracy level is maintained to 90-95%."
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:id="@+id/equitycash"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:id="@+id/tvequ2"
+                android:layout_marginTop="8dp"
+                android:text="What you Get?"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/tvequpack"
+
+                android:text="In this pack we will provide you 2-4 calls in a day."
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="16dp"
+                android:id="@+id/tvequtargets"
+                android:text="Each call consist of 3 targets and 1 Stop Loss."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Buy above and Sale below strategy follows."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nifty Review, Resistance and Support."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Complete Support On Whatsapp and Direct Mobile Number will be provided."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Medium of Calls:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Calls Will Be Given Only On SMS and WhatsApp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Profits:"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:text="In this package we provide assured daily profits on consistent basis. Our subscribers earns approx. Rs.1000-Rs.4000 daily on Trading amount of Rs.50,000. Investment Amount Suggested: Rs. 50,000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Profits:"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Package Price:"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Rs 4,500 for 1 Month \n Rs 11,475 for 3 Month (Save Upto Rs2,025)15% \n Rs 20,250 for 6 Month (Save Upto Rs6,750)25% \n Rs 32,400 for 1 Year (Save Upto Rs21,600)40%"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
